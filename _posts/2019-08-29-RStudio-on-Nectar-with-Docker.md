@@ -43,17 +43,17 @@ Navigate to **Applications > Browse > Browse Local**. We will first set up a hos
 
  This will create a new environment for you (probably named something like *quick-env-1*), and get your host container ready for deployment. Note that nothing has actually been deployed yet!
  
- ### 3.2: Choose a Docker Container
+### 3.2: Choose a Docker Container
 
- We now add a Docker container to the environment, which will be running on the host instance we just configured. Drag and drop the **Docker Container** app into the space marked **Drop Components here**, and this will open a dialogue box to configure your Docker container.
+We now add a Docker container to the environment, which will be running on the host instance we just configured. Drag and drop the **Docker Container** app into the space marked **Drop Components here**, and this will open a dialogue box to configure your Docker container.
 
-  ![Docker Container Generation, step 1]({{ site.baseurl }}/images/docker_container_option.png)
+![Docker Container Generation, step 1]({{ site.baseurl }}/images/docker_container_option.png)
 
-  ![Docker Container Generation, step 2]({{ site.baseurl }}/images/add_docker_container_to_env.png)
+![Docker Container Generation, step 2]({{ site.baseurl }}/images/add_docker_container_to_env.png)
 
-  Choose an appropriate **Application Name** and make sure the Docker Host you set up previously is chosen as the **Container Host**.
+Choose an appropriate **Application Name** and make sure the Docker Host you set up previously is chosen as the **Container Host**.
 
-  We will now choose an appropriate Docker image. The Docker images released by Bioconductor contain RStudio, the *BiocManager* package for package management, and optionally a number of core packages for bioinformatics analysis. We will use the *bioconductor/release_core2* container for this tutorial. See [here](https://www.bioconductor.org/help/docker/) for other options. Put *bioconductor/release_core2* as the Docker image name, put *PASSWORD=your_secure_password* into the Environment Variables field, replacing *your_secure_password* with a password that is both strong and not used for anything else (consider using a password manager to generate and store passwords, if you don't already). Add *8787* to the **Port** field - this is the port that the RStudio Server uses. Finally, make sure **Visible from outside** is ticked, and click **Create**.
+We will now choose an appropriate Docker image. The Docker images released by Bioconductor contain RStudio, the *BiocManager* package for package management, and optionally a number of core packages for bioinformatics analysis. We will use the *bioconductor/release_core2* container for this tutorial. See [here](https://www.bioconductor.org/help/docker/) for other options. Put *bioconductor/release_core2* as the Docker image name, put *PASSWORD=your_secure_password* into the Environment Variables field, replacing *your_secure_password* with a password that is both strong and not used for anything else (consider using a password manager to generate and store passwords, if you don't already). Add *8787* to the **Port** field - this is the port that the RStudio Server uses. Finally, make sure **Visible from outside** is ticked, and click **Create**.
 
 ![Docker Container Generation, step 3]({{ site.baseurl }}/images/docker_container_setup.png)
 
