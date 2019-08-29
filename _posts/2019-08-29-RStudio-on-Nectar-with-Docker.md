@@ -12,7 +12,7 @@ This short tutorial will cover setting up an RStudio Server on the Nectar Resear
 
 ## Step 1: Login to Nectar
 
-In your browser, visit https://nectar.org.au and click the **CLOUD LOGIN** link. Follow the steps to log in, and you should end up at the Nectar Dashboard. If you haven't used Nectar before, you will have a default trial project allocation with a small amount of available resources to play around with. This trial allocation is supposed to provide roughly 3 months worth of compute time, after which you will have to apply for an allocation for your particular research project.
+In your browser, visit [https://nectar.org.au](https://nectar.org.au) and click the **CLOUD LOGIN** link. Follow the steps to log in, and you should end up at the Nectar Dashboard. If you haven't used Nectar before, you will have a default trial project allocation with a small amount of available resources to play around with. This trial allocation is supposed to provide roughly 3 months worth of compute time, after which you will have to apply for an allocation for your particular research project.
 
 ![Trial Allocation Resources]({{ site.baseurl }}/images/nectar_resource_example.PNG)
 
