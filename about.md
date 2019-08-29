@@ -4,12 +4,8 @@ title: About
 permalink: /about/
 ---
 
-Some information about you!
-
-### More Information
-
-A place to include any other types of information that you'd like to include about yourself.
+A postdoctoral research scientist from Melbourne, Australia. Interested in protein structure, machine learning, glycobiology and bioinformatics.
 
 ### Contact me
 
-[email@domain.com](mailto:email@domain.com)
+[andrew.guy@rmit.edu.au](mailto:andrew.guy@rmit.edu.au)
