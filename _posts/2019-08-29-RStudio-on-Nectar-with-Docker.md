@@ -49,7 +49,7 @@ Navigate to **Applications > Browse > Browse Local**. We will first set up a hos
 
  ![Docker Host Generation, step 2]({{ site.baseurl }}/images/docker_host_2.png)
 
- This will create a new environment for you (probably named something like *quick-env-1*), and get your host container ready for deployment. Note that nothing has actually been deployed yet!
+ This will create a new environment for you (probably named something like *quick-env-1*), and get your host container ready for deployment. Note that nothing has been deployed yet!
  
 ### 3.2: Choose a Docker Container
 
