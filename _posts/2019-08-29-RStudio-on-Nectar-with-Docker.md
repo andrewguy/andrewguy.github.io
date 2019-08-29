@@ -5,6 +5,14 @@ title: Setting up RStudio with Bioconductor on Nectar Cloud using Docker
 
 This short tutorial will cover setting up an RStudio Server on the Nectar Research Cloud, using a Bioconductor Docker container.
 
+## Background
+
+**RStudio** is an integrated development environment (IDE) for the R programming language, and is the IDE of choice for many R users. While it is possible (and not too difficult) to run RStudio on a local machine, it is often useful to run RStudio on a cloud-based server. This lets you specificy computing resources which match the task at hand. For example, tasks such as mapping sequencing reads to a reference genome are often quite RAM intensive, and may not run on a laptop or small desktop machine (especially for larger genomes). Moving analysis to a cloud environment solves this issue.
+
+**Nectar Cloud** is a research cloud service run by the Australia Research Data Commons (ARDC), and is available for members of participating organisations (many Australian and New Zealand universities). In this tutorial we will be demonstrating how to set up an RStudio server on a compute instance running on the Nectar Cloud.
+
+We will also be utilising **Docker** to enable easy and consistent deployment of our RStudio server. Docker is an open-source platform centered around the use of small, light-weight **containers** that enable isolation of software packages and associated dependencies. In this tutorial, we will be using a **Bioconductor** Docker container that contains RStudio, R and a basic set of R packages for bioinformatics research.
+
 ## Prerequisite knowledge and requirements:
 
 - A computer with internet access and a modern browser
