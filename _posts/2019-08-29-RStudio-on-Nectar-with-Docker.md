@@ -53,7 +53,7 @@ Navigate to **Applications > Browse > Browse Local**. We will first set up a hos
  
 ### 3.2: Choose a Docker Container
 
-We now add a Docker container to the environment, which will be running on the host instance we just configured. Drag and drop the **Docker Container** app into the space marked **Drop Components here**, and this will open a dialogue box to configure your Docker container.
+We now add a Docker container to the environment, which will be running on the Docker host we just configured. Drag and drop the **Docker Container** app into the space marked **Drop Components here**, and this will open a dialogue box to configure your Docker container.
 
 ![Docker Container Generation, step 1]({{ site.baseurl }}/images/docker_container_option.png)
 
@@ -65,7 +65,11 @@ We will now choose an appropriate Docker image. The Docker images released by Bi
 
 ![Docker Container Generation, step 3]({{ site.baseurl }}/images/docker_container_setup.png)
 
-You can now click **Deploy this Environment**, and wait while the Docker Host is started and the Bioconductor container is downloaded and deployed. This might take a few minutes.
+## Step 4: Deploy Docker container and host
+
+You can now click **Deploy this Environment**, and wait while the Docker Host is started and the Bioconductor container is downloaded and deployed.
+
+This will take a few minutes - wait until the deployment is finished, and you will be given an IP address to access RStudio.
 
 ## Step 4: Access RStudio via the web browser
 
@@ -74,3 +78,5 @@ Once both the Docker Host and Bioconductor container are deployed, you can acces
 ## Step 5: Stopping the Docker Host instance
 
 Once you're finished up doing your analysis and don't need your container and container host anymore, remember to delete the associated environment - this should delete the associated compute instance and free up resources for you to use on other instances.
+
+To delete an environment, go to **Application > Applications > Environments**, select the check box next to your environment, and click **Delete Environments**.
